@@ -11,7 +11,7 @@ class ControlMatrix8x8
         ControlMatrix8x8(int _pin);
         int Convert(int x,int y);
         void GenerateSquarre(int x, int y, int taille, int color);
-        void SetPixelByCood(int x, int y, int color);
+        void SetPixelByCoord(int x, int y, int color);
         void Clear();
         int pin;
 
