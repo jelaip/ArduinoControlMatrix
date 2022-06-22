@@ -25,7 +25,7 @@ void ControlMatrix8x8::GenerateSquarre(int x, int y, int taille, int color){
     pixels->show();
 }
 
-void ControlMatrix8x8::SetPixelByCood(int x, int y, int color){
+void ControlMatrix8x8::SetPixelByCoord(int x, int y, int color){
     pixels->setPixelColor(ControlMatrix8x8::Convert(x,y), color);
     pixels->show();
 }
